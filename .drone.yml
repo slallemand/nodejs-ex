@@ -7,3 +7,9 @@ steps:
   commands:
   - npm install
   - npm test
+
+#- name: publish
+#  image: plugins/docker
+#  settings: 
+#    repo: localhost/nodejs-ex
+#    registry: ''
