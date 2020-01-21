@@ -3,7 +3,6 @@ name: default
 
 steps:
 - name: test
-  image: node
+  image: alpine
   commands:
-  - npm install
-  - npm test
+  - echo hello node
