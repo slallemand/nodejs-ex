@@ -6,3 +6,8 @@ steps:
   image: alpine
   commands:
   - echo hello node
+
+- name: git fetch
+  image: docker:git
+  commands:
+  - git fetch -t
